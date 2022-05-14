@@ -1,0 +1,81 @@
+/* .films > img{
+    width: auto;
+    height: 400px;
+}
+ */
+.profile{
+    margin-top: 5em;
+}
+
+.signUp{
+    margin-top: 3em;
+}
+
+.films{
+    margin-top: 3em;
+}
+
+.signUpForm{
+    text-align: right;
+    width:400px;
+}
+
+.form_button{
+    left: 3em;
+    border-radius:.25em;
+  }
+
+  label{
+      padding-bottom: 1em; 
+  }
+
+  .pic{
+      border: .25em solid silver;
+      border-radius:.25em;
+  }
+
+  h1{
+      font-size: 3.5em;
+  }
+
+
+body, p, li, label, a{
+    font: 1em DejaVu Sans Mono, monospace;
+}
+
+img{
+    margin: 1em;
+    height: 400px;
+    width: 300px;
+}
+
+/* Computer */
+@media screen and (min-width: 992px){
+    body, p, li, label, a{
+        font: 1em DejaVu Sans Mono, monospace;
+    }
+}
+
+/* Tablet */
+@media screen and (max-width: 768px){
+    body, p, li, label, a{
+        font: .8em DejaVu Sans Mono, monospace;
+    }
+}
+
+/* Phone */
+@media screen and (max-width: 576px){
+    body, p, li, label, a{
+        font: .75em DejaVu Sans Mono, monospace;
+    }
+navbar {display: flex;}
+}
+
+.social{
+    height: 5em;
+    width: 5em;
+}
+
+body{
+    padding: 2em;
+}
